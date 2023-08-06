@@ -1,7 +1,10 @@
+// comparativa de escritura tradicional sincrona vs escritura asincrona con stream
+
 const fs = require('fs')
 
 let contenido = '1234567890'
 let iteraciones = 15
+
 // con stream
 const streamEscritura = fs.createWriteStream('../archivos/mi_archivo3.txt')
 

@@ -1,3 +1,5 @@
+//  comparativa de tiempo usado en lectura de forma sincrona y asincrona 
+
 const fs = require('fs')
 
 console.time('tiempo de respuesta')

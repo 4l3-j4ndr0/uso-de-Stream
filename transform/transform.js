@@ -1,3 +1,5 @@
+// uso de transforms , este tipo de stream permite leer y escribir el archivo pero tambien transformarlo una vez que lea algo 
+
 const fs = require('fs')
 const {Transform} = require('stream')
 

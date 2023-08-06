@@ -1,3 +1,5 @@
+// crear archivo txt  grande usando WriteStream
+
 const fs = require('fs')
 const archivo = fs.createWriteStream('archivo.txt')
 
